@@ -4,28 +4,60 @@
   margin: 0;
 }
 
-.sx-grid {
-  background-color: black;
-  height: 100vh;
-  width: 15vw;
-  position: absolute;
-}
-
-.header-upgrade {
-  height: 10vh;
+.wrapper {
   width: 100vw;
-  background-color: darkgrey;
+  height: 100vh;
+  max-width: 100%;
 }
 
 .main-section {
-  background-color: darkblue;
-  height: 80vh;
-  width: 100vw;
+  background-color: #141620;
+  height: 100%;
+  overflow-y: auto;
+}
+.sx-grid {
+  background-color: black;
+  height: 100%;
+  width: 15vw;
+  position: fixed;
 }
 
-.reproduction-bar {
-  background-color: grey;
-  height: 10vh;
-  width: 100vw;
-  position: absolute;
+.header-upgrade {
+  height: 100px;
+  width: 100%;
+  background-color: darkgrey;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: darkgrey;
+  color: white;
+  text-align: center;
+}
+
+
+.logo-spotify img {
+  height: 50px;
+}
+
+.grid-nav-top >ul>li{
+  list-style-type: none;
+  color: #b3b3b3;
+  height: 40px;
+  width:100%;
+  padding-left:24px;
+  line-height:30px;
+}
+
+.grid-nav-top >ul>li>img{
+  width: 24px;
+  height: 24px;
+}
+
+.grid-nav-top >ul>li>span{
+  margin-left: 16px;
 }
