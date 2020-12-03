@@ -10,22 +10,9 @@
   max-width: 100%;
 }
 
-.main-section {
-  background-color: #141620;
-  height: 100%;
-  overflow-y: auto;
-}
-.sx-grid {
-  background-color: black;
-  height: 100%;
-  width: 15vw;
-  position: fixed;
-}
-
-.header-upgrade {
-  height: 100px;
-  width: 100%;
-  background-color: darkgrey;
+main {
+  height: calc(100% - 90px);
+  background: #ccc;
 }
 
 footer {
@@ -34,12 +21,14 @@ footer {
   bottom: 0;
   width: 100%;
   height: 100px;
-  background-color: darkgrey;
+  background-color: #282828;
   color: white;
   text-align: center;
 }
 
 
+
+/* ----- SECTION GRID SX ----- */
 .logo-spotify img {
   height: 50px;
 }
@@ -61,3 +50,44 @@ footer {
 .grid-nav-top >ul>li>span{
   margin-left: 16px;
 }
+
+.sx-grid {
+  background-color: black;
+  height: 100%;
+  width: 15vw;
+  position: fixed;
+}
+
+.navbar-playlist {
+  float: left;
+  width: 230px;
+  height: 100%;
+  overflow-y: hidden;
+  color: white;
+}
+/* ----- SECTION GRID SX ----- */
+
+
+/* ----- MAIN SECTION - BOX SONGS CENTRALI ----- */
+
+.main-section {
+  background-color: #141922;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.header-upgrade {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(0,0,0,.4);
+}
+
+.navbar-main {
+  margin-top: 40px;
+  text-align: center;
+  font-weight: bold;
+  padding: 15px 0;
+  color: white;
+}
+
+/* ----- MAIN SECTION - BOX SONGS CENTRALI ----- */
