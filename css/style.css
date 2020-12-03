@@ -89,12 +89,24 @@ footer {
   padding: 10px 40px;
 }
 
+.recently-played {
+  display: flex;
+}
 .main-section .songs {
+  width: 300px;
   margin: 15px;
+  display: inline-block;
+}
+
+/* ----- MAIN SECTION - BOX SONGS CENTRALI ----- */
+
+/* ----- REPRODUCTION BAR ----- */
+
+.reproduction-bar {
+  margin-left: 20px;
   display: flex;
 }
 
-.songs img {
-  flex-direction: column;
+.left-bar img {
+  height: 50px;
 }
-/* ----- MAIN SECTION - BOX SONGS CENTRALI ----- */
