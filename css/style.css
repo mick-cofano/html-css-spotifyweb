@@ -60,13 +60,24 @@ footer {
 }
 
 .header-upgrade {
-  height: 100px;
-  width: 100%;
+  width: calc(100% - 230px);
+  height: 90px;
   background-color: rgba(0,0,0,.4);
+  position: fixed;
+  text-align: right;
+  padding-right: 50px;
+  line-height: 90px;
+  font-weight: bold;
+}
+
+.header-upgrade a {
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 .navbar-main {
-  margin-top: 40px;
+  margin-top: 110px;
   text-align: center;
   font-weight: bold;
   color: white;
@@ -78,4 +89,12 @@ footer {
   padding: 10px 40px;
 }
 
+.main-section .songs {
+  margin: 15px;
+  display: flex;
+}
+
+.songs img {
+  flex-direction: column;
+}
 /* ----- MAIN SECTION - BOX SONGS CENTRALI ----- */
